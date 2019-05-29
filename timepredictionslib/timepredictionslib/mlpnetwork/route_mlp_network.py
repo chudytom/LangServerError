@@ -1,0 +1,2 @@
+class RouteMlpNetwork():
+    pass
