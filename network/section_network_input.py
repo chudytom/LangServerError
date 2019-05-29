@@ -1,8 +1,7 @@
-import time
-import argparse
-from datetime import datetime
+# Below import is correct to the Language Server but fail when the interpreter tries to run it
+# from timepredictionslib.timepredictionslib.helpers.file_parser import FileParser 
 
-from timepredictionslib.timepredictionslib.helpers.file_parser import FileParser
+# Below imports are correct when run by Python interpreter
 from timepredictionslib.sectionnetwork.network_data_helper import NetworkDataHelper
 from timepredictionslib.sectionnetwork.sections_creator import SectionsCreator
 from timepredictionslib.sectionnetwork.section_info import SectionInfo
