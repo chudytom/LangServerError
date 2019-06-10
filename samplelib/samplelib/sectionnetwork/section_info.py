@@ -1,0 +1,2 @@
+class SectionInfo:
+    pass
